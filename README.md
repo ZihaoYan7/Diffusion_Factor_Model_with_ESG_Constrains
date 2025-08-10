@@ -53,12 +53,12 @@ diffusion_factor_model_with_esg_constrains/
 
 ## 🚀 Running Experiments
 
-# Run the preprocessing script to merge, clean, and winsorize the raw data.
+Run the preprocessing script to merge, clean, and winsorize the raw data.
 
 python data_preprocessing.py
 ```This will create a unified data file (e.g., `final_data.parquet`) in the `data/processed/` directory, which will be used for all subsequent steps.
 
-# Adjust the parameters in your configuration file (e.g., `config/esg_experiment.yaml`) to define the backtest period and ESG constraint parameters. Then, run the main experiment script:
+Then, run the main experiment script:
 
 ```bash
 # Run the ESG portfolio backtesting experiment
