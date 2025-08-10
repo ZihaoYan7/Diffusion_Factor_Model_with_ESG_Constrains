@@ -34,9 +34,9 @@ For portfolio optimization, this project uses cvxpy. A high-performance solver l
 diffusion_factor_model_with_esg_constrains/
 ├── assets/                      # Images for README (e.g., performance charts)
 ├── config/                      # Configuration settings for experiments
-├── data/                        # All input data
+├── data_return_ESG/             # All input data
 │   ├── raw/                     # Raw return and ESG data (.csv files)
-│   └── processed/               # Processed and merged data (created automatically)
+│   └── processed/               # Processed and winsorized data
 ├── diffusion_factor_model/      # Core DFM model implementation (from original repo)
 ├── eval/                        # Original evaluation modules
 ├── results/                     # All outputs from experiments (created automatically)
