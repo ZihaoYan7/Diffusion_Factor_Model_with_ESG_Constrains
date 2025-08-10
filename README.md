@@ -1,4 +1,4 @@
-# 🌊 Diffusion Factor Model for ESG-Constrained Portfolios
+# 🌊 Diffusion Factor Model with ESG Constrains
 
 <p align="center">
 <img src="assets/esg_portfolio_performance.png" alt="ESG Portfolio Performance Demo" width="700"/>
